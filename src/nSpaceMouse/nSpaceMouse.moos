@@ -1,0 +1,9 @@
+//------------------------------------------------
+// nSpaceMouse config block
+
+ProcessConfig = nSpaceMouse
+{
+   AppTick   = 60
+   CommsTick = 60
+}
+

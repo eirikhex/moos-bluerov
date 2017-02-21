@@ -1,0 +1,208 @@
+#!/bin/bash
+
+if [ -d "$2$1" ]; then
+    echo "$2$1 already exists... quitting."
+    exit 1
+fi
+
+if [ -z "$1" ] ; then
+    echo "GenMOOSApp_AppCasting: usage: $0 [app-name] [prefix]"
+    exit 0
+fi
+
+if [ -z "$2" ] ; then
+    echo "GenMOOSApp_AppCasting: usage: $0 [app-name] [prefix]"
+    exit 0
+fi
+
+#if [ -z "$3" ] ; then
+#    $3="YOUR-NAME-HERE"
+#fi
+
+mkdir $2$1
+cd $2$1
+
+cat > $1.py <<EOF
+#!/usr/bin/env python3
+import sys
+import pymoos
+import numpy
+import signal
+from time import sleep
+
+# Setting app defaults:
+default_name        = "${1}"
+default_ip          = "localhost"
+default_frequency   = 50
+default_port        = 9000
+
+
+class ${1}( pymoos.comms ):
+    """ Class for Interacting with the MOOSDB"""
+        
+    def __init__(self, config_dictionary):
+        #Init comms
+        pymoos.comms.__init__(self)
+        
+        # Store reference to Moostime locally
+        self.time = pymoos.time
+        
+        # register callbacks
+        self.set_on_connect_callback( self.do_registrations )
+        self.set_on_mail_callback( self.mail_callback )
+        
+        # Perform Object initialization
+        self.joystickString = ''
+        self.mode = 0
+
+        print(config_dictionary)
+        
+        
+        
+
+    
+    def do_registrations(self):
+        # Register (subscribe) for messages
+        self.register("JoystickMotion",0)
+        self.register("currentControlMode",0)
+        
+        return True
+    #end do_registrations
+        
+    def mail_callback(self):
+        
+        # This methods is called whenever new infarmation is available from MOOSDB
+        
+        # Fetching messages from DB
+        messages = self.fetch()
+        
+        # Looping throug recieved messages. Assigning values to class variables
+        for message in messages:
+            key = message.key()
+            
+            if key == "JoystickMotion" and message.is_string():
+                self.joystickString = message.string()
+            elif key == "currentControlMode" and message.is_double():
+                self.mode = message.double()
+        
+        
+        return True
+    #end mail_callback
+    
+    def iterate(self,*arg):
+        
+        # This is where the work is done. This method is called with a frequency speciefied in the Run method
+        
+        # do work
+        
+        # post result to database
+        t = self.time() # get MOOStime
+        result1 = 1337 # MOOS acceps doubles
+        result2 = 'Work Done' # or Strings
+        self.notify("The_message_name_or_key1",result1 ,t)
+        self.notify("The_message_name_or_key2",result2 ,t)
+            
+            
+        
+        
+        
+        return
+    #end iterate
+    
+        
+    
+    def Run(self,frequency_):
+        
+        # Use timed signals for better loop timing        
+        self.running = True
+        h = 1.0/frequency_
+        signal.setitimer(signal.ITIMER_REAL, h,h)
+        signal.signal(signal.SIGALRM,self.iterate)
+        
+        while self.running:
+            sleep(0.1)
+    
+    def Stop(self,*arg):
+        self.running = False
+        signal.setitimer(signal.ITIMER_REAL, 0,0)
+        print("Now stopping")
+
+
+
+           
+def main():
+    
+    name,ip,port,freq,config_dictionary = config()
+    
+    App = ${1}(config_dictionary)
+    
+    App.run(ip,port,name)
+    
+    # Setting up a signal for stopping the app
+    signal.signal(signal.SIGINT,App.Stop)
+    
+    # Run the app
+    App.Run(freq)
+
+
+def config():
+    # set the name of the APP
+    try:
+        name = sys.argv[2]
+    except:
+        name = default_name
+
+    print("starting as " + name)
+
+    port = default_port
+    ip   = default_ip
+    freq = default_frequency
+
+
+    proc_config_found = False
+    proc_config = {}
+
+    try:
+        with open(sys.argv[1], 'r') as F:
+            proc_config_reading = False
+            for line in F:
+                if 'ServerHost' in line:
+                    var = "".join(line.split()).split("=")
+                    ip = var[1]
+                    print("Setting ip to " + ip)
+                if 'ServerPort' in line:
+                    var = "".join(line.split()).split("=")
+                    try:
+                        port = int(str(var[1]))
+                        print("Setting port to " + str(port))
+                    except:
+                        print("Invalid port")
+                        print("Setting port to " + str(port) )
+                if 'ProcessConfig' in line:
+                    proc_name = line.replace(" ","").split("=")[1]
+                    if name in proc_name:
+                        proc_config_found = True
+                        proc_config_reading = True
+                if proc_config_reading and "{" in line:
+                    continue
+                if proc_config_reading and "}" in line:
+                    proc_config_reading = False
+                if proc_config_reading:
+                    var = "".join(line.split()).split("=")
+                    proc_config[var[0]] = var[1]
+    except:
+        print("reading config file failed")
+
+    if "AppTick" in proc_config:
+        try:
+            freq = int(proc_config["AppTick"])
+            print("running with frequency " + str(freq) + "Hz" )
+        except:
+            pass
+
+    return(name,ip,port,freq,proc_config)
+
+if __name__ == "__main__":
+    main()
+
+EOF

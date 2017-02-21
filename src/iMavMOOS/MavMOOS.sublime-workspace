@@ -1,0 +1,824 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"m_",
+				"m_iterations"
+			],
+			[
+				"command",
+				"command_struct"
+			],
+			[
+				"comma",
+				"command_struct"
+			],
+			[
+				"aut",
+				"autopilot_interface"
+			],
+			[
+				"dep",
+				"depth_msg"
+			],
+			[
+				"han",
+				"handle_mavlink_depth_msg"
+			],
+			[
+				"bit",
+				"bitmask"
+			],
+			[
+				"ha",
+				"handle_mavlink_highres_imu_msg"
+			],
+			[
+				"bitse",
+				"bitset"
+			],
+			[
+				"no",
+				"notify"
+			],
+			[
+				"Mav",
+				"MAVLinkHeartbeat"
+			],
+			[
+				"ca",
+				"Callback"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"au",
+				"autopilot_interface"
+			],
+			[
+				"ac",
+				"actuator_controls_s"
+			],
+			[
+				"_a",
+				"_actuators"
+			],
+			[
+				"use",
+				"usleep"
+			],
+			[
+				"_armed",
+				"_armed_sub"
+			],
+			[
+				"i",
+				"it"
+			],
+			[
+				"rov",
+				"rov_control"
+			],
+			[
+				"par",
+				"parameters_update"
+			],
+			[
+				"_mau",
+				"_manual_sub"
+			],
+			[
+				"armin",
+				"arming_status_poll"
+			],
+			[
+				"task",
+				"task_main"
+			],
+			[
+				"in",
+				"include"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "MavMOOS.cpp",
+			"settings":
+			{
+				"buffer_size": 14903,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mavlink/include/mavlink/v2.0/common/mavlink_msg_highres_imu.h",
+			"settings":
+			{
+				"buffer_size": 24066,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MavMOOS.h",
+			"settings":
+			{
+				"buffer_size": 1700,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mavlink/include/mavlink/v2.0/common/mavlink_msg_command_int.h",
+			"settings":
+			{
+				"buffer_size": 22098,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mavlink/include/mavlink/v2.0/common/common.h",
+			"settings":
+			{
+				"buffer_size": 97835,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "autopilot_interface.cpp",
+			"settings":
+			{
+				"buffer_size": 21509,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "autopilot_interface.h",
+			"settings":
+			{
+				"buffer_size": 8849,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "serial_port.cpp",
+			"settings":
+			{
+				"buffer_size": 14457,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 132.0,
+		"last_filter": "package Control: In",
+		"selected_items":
+		[
+			[
+				"package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"to",
+				"TodoReview: Project and Open Files"
+			],
+			[
+				"Pacage Control: In",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS"
+	],
+	"file_history":
+	[
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/CMakeLists.txt",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/mavlink/include/mavlink/v1.0/common/mavlink_msg_manual_control.h",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/mavlink/include/mavlink/v2.0/protocol.h",
+		"/home/eirik/mavlink/c_uart_interface_example/mavlink/include/mavlink/v1.0/mavlink_helpers.h",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/MavMOOS.sublime-project",
+		"/home/eirik/moos-ivp-trees/moos-ivp-anrp/src/iArduIMU/commthread.cpp",
+		"/home/eirik/mavlink/c_uart_interface_example/autopilot_interface.cpp",
+		"/home/eirik/mavlink/c_uart_interface_example/mavlink_control.cpp",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/autopilot_interface.h",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/serial_port.h",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/serial_port.cpp",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/MavMOOS.h",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/MAVLinkmsg.cpp",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/MAVLinkmsg.h",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/mavlink/include/mavlink/v2.0/bluerov2/mavlink_msg_depth.h",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/autopilot_interface.cpp",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/mavlink/include/mavlink/v1.0/common/mavlink_msg_local_position_ned.h",
+		"/home/eirik/moos-ivp-trees/moos-ivp-anrp/src/iArduIMU/mavlink/missionlib/waypoints.c",
+		"/home/eirik/mavlink/c_uart_interface_example/autopilot_interface.h",
+		"/home/eirik/mavlink/mavros/libmavconn/src/interface.cpp",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/include/mavconn/interface.h",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/MavMOOS.cpp",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/mavlink/pymavlink/generator/C/include_v2.0/mavlink_types.h",
+		"/home/eirik/mavlink/c_uart_interface_example/mavlink/include/mavlink/v1.0/mavlink_types.h",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/include/v2.0/mavlink_types.h",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/CMakeLists.txt",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/cmake/Modules/em_expand.cmake",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/include/v2.0/common/common.h",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/build/catkin_generated/mavlink.context.py",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/src/mavlink_helpers.cpp",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/src/mavlink_helpers.cpp.em",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/include/v2.0/common/common.hpp",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/include/mavconn/mavlink_dialect.h",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/include/mavconn/mavlink_dialect.h.em",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/compile_mavlink.sh",
+		"/home/eirik/mavlink/mavros/libmavconn/CMakeLists.txt",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/cmake/Modules/assert.cmake",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/cmake/Modules/safe_execute_process.cmake",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/cmake/Modules/debug_message.cmake",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/mavlink/pymavlink/mavparm.py",
+		"/home/eirik/mavlink/mavros/libmavconn/src/mavlink_helpers.cpp.em",
+		"/home/eirik/moos-ivp-trees/moos-ivp-anrp/src/iArduIMU/build/include/v0.9/common/common.h",
+		"/home/eirik/moos-ivp-ntnu/src/iMavMOOS/libmavconn/mavlink/pymavlink/generator/mavgen_c.py",
+		"/home/eirik/mavlink/mavros/mavros/src/plugins/imu_pub.cpp",
+		"/home/eirik/mavlink/mavros/libmavconn/include/mavconn/interface.h",
+		"/home/eirik/mavlink/mavros/mavros/src/gcs_bridge.cpp",
+		"/home/eirik/mavlink/mavros/mavros/include/mavros/mavros.h",
+		"/home/eirik/Pixhawk/Firmware/cmake/configs/nuttx_px4fmu-v2_default.cmake",
+		"/home/eirik/Pixhawk/Firmware/ROMFS/px4fmu_common/mixers/bluerov2.main.mix",
+		"/home/eirik/Pixhawk/Firmware/src/modules/rov_control/rov_control.cpp",
+		"/home/eirik/Pixhawk/Firmware/ROMFS/px4fmu_common/mixers/bluerov2.aux.mix",
+		"/home/eirik/Pixhawk/Firmware/ROMFS/px4fmu_common/init.d/60001_rovsub_BR2",
+		"/home/eirik/Pixhawk/Firmware/ROMFS/px4fmu_common/init.d/rcS",
+		"/home/eirik/Pixhawk/f/Firmware/src/modules/px4iofirmware/mixer.h",
+		"/home/eirik/Pixhawk/f/Firmware/src/modules/systemlib/mixer/mixer_group.cpp",
+		"/home/eirik/Pixhawk/f/Firmware/src/modules/px4iofirmware/mixer.cpp",
+		"/home/eirik/Pixhawk/f/Firmware/src/modules/px4iofirmware/px4io.h",
+		"/home/eirik/Pixhawk/f/Firmware/ROMFS/px4fmu_common/init.d/60001_rovsub_BR2",
+		"/home/eirik/Pixhawk/f/Firmware/ROMFS/px4fmu_common/mixers/bluerov2.main.mix",
+		"/home/eirik/Pixhawk/f/Firmware/src/modules/rov_control/rov_control.cpp",
+		"/home/eirik/Pixhawk/Firmware/ROMFS/px4fmu_common/init.d/rc.rov_apps",
+		"/home/eirik/Pixhawk/Firmware/src/drivers/px4io/px4io.cpp",
+		"/home/eirik/Pixhawk/Firmware/src/modules/systemlib/mixer/mixer_simple.cpp",
+		"/home/eirik/Pixhawk/Firmware/src/modules/systemlib/mixer/mixer_load.c",
+		"/home/eirik/Pixhawk/Firmware/src/drivers/drv_mixer.h",
+		"/home/eirik/Pixhawk/Firmware/src/systemcmds/mixer/mixer.cpp",
+		"/home/eirik/Pixhawk/Firmware/ROMFS/px4fmu_common/mixers/bluerov2.vertical.mix",
+		"/home/eirik/Pixhawk/Firmware/ROMFS/px4fmu_common/mixers/IO_pass.main.mix",
+		"/home/eirik/Pixhawk/Firmware/src/modules/rov_control_debug/rov_control_debug.cpp",
+		"/home/eirik/Pixhawk/Firmware/src/modules/uORB/uORBManager.hpp",
+		"/home/eirik/Pixhawk/Firmware/src/modules/mc_att_control/mc_att_control_main.cpp",
+		"/home/eirik/Pixhawk/Firmware/src/modules/fw_att_control/fw_att_control_main.cpp",
+		"/home/eirik/Pixhawk/Firmware/src/drivers/drv_pwm_output.h",
+		"/home/eirik/Pixhawk/Firmware/ROMFS/px4fmu_common/init.d/rc.interface",
+		"/home/eirik/Pixhawk/Firmware/src/modules/commander/commander.cpp",
+		"/home/eirik/Pixhawk/Firmware/src/modules/px4iofirmware/mixer.cpp",
+		"/home/eirik/Pixhawk/Firmware/ROMFS/px4fmu_common/mixers/X5.main.mix",
+		"/home/eirik/Pixhawk/Firmware/src/modules/rov_control_debug/CMakeLists.txt",
+		"/home/eirik/Pixhawk/Firmware/src/modules/uORB/uORBManager.cpp",
+		"/home/eirik/Pixhawk/Firmware/src/modules/uORB/uORB.cpp",
+		"/home/eirik/Pixhawk/Firmware/src/modules/commander/state_machine_helper.cpp",
+		"/home/eirik/Pixhawk/Firmware/src/modules/ekf2/ekf2_main.cpp",
+		"/home/eirik/Pixhawk/Firmware/build_px4fmu-v2_default/src/modules/uORB/topics/debug_key_value.h",
+		"/home/eirik/Pixhawk/Firmware/src/platforms/px4_posix.h",
+		"/home/eirik/Pixhawk/Firmware/src/drivers/stm32/drv_hrt.c",
+		"/home/eirik/Pixhawk/Firmware/src/drivers/device/vdev_posix.cpp",
+		"/home/eirik/Pixhawk/Firmware/src/modules/systemlib/mavlink_log.h",
+		"/home/eirik/Pixhawk/Firmware/src/drivers/drv_hrt.h",
+		"/home/eirik/Pixhawk/Firmware/build_px4fmu-v2_default/src/modules/uORB/topics/manual_control_setpoint.h",
+		"/home/eirik/Pixhawk/Firmware/build_px4fmu-v2_default/src/modules/uORB/topics/actuator_controls.h",
+		"/home/eirik/Pixhawk/Firmware/src/modules/rov_control/rov_control.c",
+		"/home/eirik/Pixhawk/Firmware/Firmware.sublime-project"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"MAV_CMD",
+			"companion_id",
+			"system_id",
+			"target",
+			"message",
+			"notify",
+			"decode",
+			"sys_status",
+			"heartbeat",
+			"start",
+			"autopilot_interface",
+			"enable_offboard_control",
+			"ENABLE OFFBOARD MODE",
+			"ENABLE OFFBOARD MODE\n",
+			"offboard",
+			"writing_status",
+			"Callback",
+			"callback",
+			"result",
+			"write_tid",
+			"//printf",
+			"&message",
+			"catkin",
+			"MAVLINK_MESSAGE_CRCS",
+			"BAD_SIGNATURE",
+			"MAVLINK_FRAMING_BAD_SIGNATURE",
+			"MAVLINK_MESSAGE_CRCS",
+			"C++",
+			"EMPY_SCRIPT",
+			"none",
+			"load",
+			"230",
+			"actuator_controls",
+			"\\n",
+			"\t",
+			"load",
+			"mixer",
+			"vehicle_status_poll",
+			"_actuators_id",
+			"_actuators_0_pub",
+			"_t_actuator_controls_0",
+			"ROVControl",
+			"rov_control",
+			"ardrone",
+			"MODE_6PWM",
+			"publish_pwm_outputs",
+			"actuator_outputs",
+			"SYS_USE_IO",
+			"fmu",
+			"io_publish_pwm_outputs",
+			"_actuators",
+			"ioctl",
+			"actuator_controls",
+			"io_publish_pwm_outputs",
+			"px4io",
+			"failsafe",
+			"pwm",
+			"pwm_limit",
+			"arm",
+			"pwm",
+			"pwm_output",
+			"drv_pwm_output",
+			"output_pwm",
+			"pwm",
+			"actuator_controls",
+			"_outputs",
+			"actuator_outputs",
+			"pwm",
+			"usb",
+			"mavlink_log_critical",
+			"ARM",
+			"arm",
+			"_ctrl_state_sub",
+			"_ts_opt_recovery",
+			"exit",
+			"nullptr;",
+			"exit",
+			"namespace",
+			"g_control",
+			"manual_poll",
+			"_manual",
+			"_manual_control_sp_sub",
+			"_manual_sub",
+			"_manual_control",
+			"_manual_control_sp_sub",
+			"perf_counter_t",
+			"_actuators_id",
+			"orb_advertise",
+			"orb_advert_t",
+			"_manual_control_sp",
+			"_actuators_0_pub",
+			"_actuators",
+			"_actuators.control",
+			"_actuators",
+			"INDEX_YAW",
+			"actuator_controls_s::INDEX_YAW",
+			"parameters_update",
+			"parameter_update_s",
+			"_loop_perf",
+			"_armed",
+			"_task_running",
+			"_task_should_exit",
+			"ekf2::instance",
+			"manual_control_setpoint"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"imu_message",
+			"printf",
+			"message",
+			"ROVControlDebug",
+			"rov_control_debug",
+			"rov_control::instance"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "MavMOOS.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14903,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10131,
+								10131
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++ Starting Kit/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4052.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "mavlink/include/mavlink/v2.0/common/mavlink_msg_highres_imu.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24066,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								156,
+								156
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "MavMOOS.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1700,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "mavlink/include/mavlink/v2.0/common/mavlink_msg_command_int.h",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 22098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								752,
+								752
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "mavlink/include/mavlink/v2.0/common/common.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 97835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45988,
+								45988
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5982.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "autopilot_interface.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21509,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9544.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "autopilot_interface.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7937,
+								7937
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3560.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "serial_port.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14457,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5822,
+								5822
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2404.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "MavMOOS.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/moos-ivp-ntnu/moos-ivp-ntnu.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 405.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

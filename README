@@ -1,0 +1,58 @@
+##############################################################################
+# FILE:        moos-ivp-readmeREADME
+# DATE:        2017/02/21
+# DESCRIPTION: Contains important information regarding the moos-ivp-blurov
+#              repository.
+##############################################################################
+
+
+#=============================================================================
+# Directory Structure
+#=============================================================================
+The directory structure for the moos-ivp-extend is decribed below:
+
+bin              - Directory for generated executable files
+build            - Directory for build object files
+build.sh         - Script for building moos-ivp-extend
+CMakeLists.txt   - CMake configuration file for the project
+data             - Directory for storing data
+lib              - Directory for generated library files
+missions         - Directory for mission files
+README           - Contains helpful information - (this file).
+scripts          - Directory for script files
+src              - Directory for source code
+
+
+#=============================================================================
+# Build Instructions
+#=============================================================================
+#--------------------
+# Linux and Mac Users
+#--------------------
+
+To build on Linux and Apple platforms, execute the build script within this
+directory:
+
+   $ ./build.sh
+
+To build without using the supplied script, execute the following commands
+within this directory:
+
+   $ mkdir -p build
+   $ cd build
+   $ cmake ../
+   $ make
+   $ cd ..
+
+
+#=============================================================================
+# Environment variables
+#=============================================================================
+The moos-ivp-extend binaries files should be added to your path to allow them
+to be launched from pAntler. 
+
+
+##############################################################################
+#                               END of README
+##############################################################################
+

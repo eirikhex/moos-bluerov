@@ -1,0 +1,12 @@
+//------------------------------------------------
+// iMavMOOS config block
+
+ProcessConfig = iMavMOOS
+{
+   	AppTick   = 4
+   	CommsTick = 4
+
+   	Port = /dev/ttyACM1
+	MessageRate = 10
+}
+

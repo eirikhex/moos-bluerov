@@ -1,0 +1,38 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/eirik/mavlink/c_uart_interface_example"
+		},
+		{
+			"path": "/home/eirik/mavlink/mavros/libmavconn"
+		},
+		{
+			"path": "/home/eirik/moos-ivp-trees/moos-ivp-anrp/src/iArduIMU"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+        "todoreview": {
+            "exclude_folders": [
+                "*.git*",
+                "*.rst",
+                "windows",
+                "*.cmake",
+                "c_uart_interface_example",
+                "c_uart_interface_example/*",
+                "iArduIMU",
+                "iArduIMU/*",
+                "libmavconn/*"
+            ],
+            "patterns": {
+    			"TODO": "TODO[\\s]*?:[\\s]*(?P<todo>.*)$",
+    			"NOTE": "NOTE[\\s]*?:[\\s]*(?P<note>.*)$",
+    			"FIXME": "FIX ?ME[\\s]*?:[\\s]*(?P<fixme>.*)$",
+    			"CHANGED": "CHANGED[\\s]*?:[\\s]*(?P<changed>.*)$"
+			}
+        }
+    }
+}

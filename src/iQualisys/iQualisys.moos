@@ -1,0 +1,9 @@
+//------------------------------------------------
+// iQualisys config block
+
+ProcessConfig = iQualisys
+{
+   AppTick   = 4
+   CommsTick = 4
+}
+
