@@ -15,6 +15,8 @@ else (${WIN32})
       pthread )
 endif (${WIN32})
 
+
+
 SET(SRC
    main.cpp
    mainwindow.cpp
@@ -23,10 +25,9 @@ SET(SRC
    MatrixParse.cpp
 )
 
-
-
 find_package(Qt5Widgets REQUIRED)
 find_package(Qt5PrintSupport REQUIRED)
+find_package(Eigen3 )
 
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
