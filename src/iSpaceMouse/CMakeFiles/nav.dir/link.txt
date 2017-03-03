@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libnav.a  CMakeFiles/nav.dir/__/__/3rdParties/libspnav/spnav.c.o
+/usr/bin/ranlib ../../lib/libnav.a

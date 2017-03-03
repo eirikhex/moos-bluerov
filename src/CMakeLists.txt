@@ -16,7 +16,8 @@ INCLUDE_DIRECTORIES(${LOCAL_LIBRARY_DIRS})
 #============================================================================
 ADD_SUBDIRECTORY(iMavMOOS)
 ADD_SUBDIRECTORY(iQualisys)
-ADD_SUBDIRECTORY(nSpaceMouse)
+ADD_SUBDIRECTORY(iSpaceMouse)
+ADD_SUBDIRECTORY(uPIDPlotter)
 
 ##############################################################################
 #                           END of CMakeLists.txt

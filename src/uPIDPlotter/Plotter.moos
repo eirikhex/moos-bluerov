@@ -1,0 +1,17 @@
+//name of the machine hosting the MOOSDB
+//(can be an I.P address aswell as a FQDN)
+ServerHost = localhost
+
+//port DB listens on (make sure you are not blocking the port you request)
+ServerPort = 9000
+
+ProcessConfig = uPIDPlotter
+{
+   AppTick      = 30
+   CommsTick    = 30
+   nLines       = 2
+   lineNames    = current_N, desired_N
+   xValues      = currentNEDPos_x, desiredNEDPos_x
+   xTypes       = double, double
+}
+
