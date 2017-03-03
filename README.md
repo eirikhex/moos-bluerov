@@ -1,3 +1,6 @@
+# moos-bluerov
+This repository include code needed to run a Bluerov2 in MCLab using Qualisys and MOOS. 
+The code is intended to be used with custom PX4 firmware loaded on the pixhawk.
 
  Build Instructions
 =============================================================================
@@ -16,3 +19,4 @@ within this directory:
     $ cmake ../
     $ make
     $ cd ..
+    
